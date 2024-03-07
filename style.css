@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+  font-size: 24px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.title1 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; }
+.title2 { font-family: "Futura", sans-serif; font-size: 36px; color: #F8F8FF; }
+.title3 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; }
+.title4 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; }
+.title5 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; }
+.title6 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; }
+.title7 { font-family: "Futura", sans-serif; font-size: 36px; color: #F8F8FF; }
+
+.content1 { font-family: "Garamond", serif; font-size: 20px; color: #333; }
+.content2 { font-family: "Garamond", serif; font-size: 20px; color: #F8F8FF; }
+.content3 { font-family: "Garamond", serif; font-size: 20px; color: #333; }
+.content4 { font-family: "Garamond", serif; font-size: 20px; color: #333; }
+.content5 { font-family: "Garamond", serif; font-size: 20px; color: #333; }
+.content6 { font-family: "Garamond", serif; font-size: 20px; color: #333; }
+.content7 { font-family: "Garamond", serif; font-size: 20px; color: #F8F8FF; }
+
+#stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
